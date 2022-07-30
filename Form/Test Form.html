@@ -3,9 +3,48 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
+	<title>Payment Form</title>
 </head>
 <body>
+	<form action="">
+	<h1>THIS IS A TEST PAYMENT FORM</h1>
 
+	<h2>User Information:</h2>
+	<p>Name: <input type="text" name="name"></p>
+	
+	<fieldset>
+		<legend>Gender:</legend>
+	<p>
+		Male <input type="radio" name="gender"> Female <input type="radio" name="gender"> Other <input type="radio" name="gender">
+	</p>
+	</fieldset>
+	<br>
+
+	<h2>Contact:</h2>
+	<p>Address: <textarea name="address" id="address" cols="100" rows="3"></textarea></p>
+	<p>Email: <input type="email" name="email" id="email"></p>
+	<p>Pincode: <input type="pincode" name="pincode" id="pincode"></p>
+	<br>
+	
+
+	<h2>Payment Information:</h2>
+	<p>
+		Card type:
+		<select name="card_type" id="card_type">
+			<option value="Visa">Visa</option>
+			<option value="Visa">Master Card</option>
+			<option value="Visa">Paypal</option>
+			<option value="Visa">Longka Bangla</option>
+		</select>
+	</p>
+	<p>
+		Card Number: <input type="number" name="number" id="number">
+	</p>
+	<p>
+		Expiration Date: <input type="date" name="exp_date" id="exp_date">
+	</p>
+
+
+	</form>
 </body>
 </html>
