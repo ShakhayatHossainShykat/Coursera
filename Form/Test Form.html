@@ -10,7 +10,8 @@
 	<h1>THIS IS A TEST PAYMENT FORM</h1>
 
 	<h2>User Information:</h2>
-	<p>Name: <input type="text" name="name"></p>
+	<p>* Marked ones are required</p>
+	<p>Name*: <input type="text" name="name" required></p>
 	
 	<fieldset>
 		<legend>Gender:</legend>
@@ -22,15 +23,15 @@
 
 	<h2>Contact:</h2>
 	<p>Address: <textarea name="address" id="address" cols="100" rows="3"></textarea></p>
-	<p>Email: <input type="email" name="email" id="email"></p>
-	<p>Pincode: <input type="pincode" name="pincode" id="pincode"></p>
+	<p>Email*: <input type="email" name="email" id="email" required required></p>
+	<p>Pincode*: <input type="pincode" name="pincode" id="pincode" required></p>
 	<br>
 	
 
 	<h2>Payment Information:</h2>
 	<p>
-		Card type:
-		<select name="card_type" id="card_type">
+		Card type*:
+		<select name="card_type" id="card_type" required>
 			<option value="Visa">Visa</option>
 			<option value="Visa">Master Card</option>
 			<option value="Visa">Paypal</option>
@@ -38,13 +39,16 @@
 		</select>
 	</p>
 	<p>
-		Card Number: <input type="number" name="number" id="number">
+		Card Number*: <input type="number" name="number" id="number" required>
 	</p>
 	<p>
-		Expiration Date: <input type="date" name="exp_date" id="exp_date">
+		Expiration Date*: <input type="date" name="exp_date" id="exp_date">
 	</p>
-
+	<p>CVV*: <input type="password" name="cvv" id="cvv" required> </p>
+	<input type="submit" value="Pay Now" >
 
 	</form>
+	<br>
+	
 </body>
 </html>
