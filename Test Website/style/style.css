@@ -10,12 +10,12 @@ body {
 header h1 {
     text-align: center;
     font-size: 40px;
-    color: white;
+    color: rgb(210, 230, 230);
 }
 
 header {
     padding: 40px;
-    background-color: rgb(17, 124, 143);
+    background-color: rgb(102, 204, 0);
 }
 
 nav {
