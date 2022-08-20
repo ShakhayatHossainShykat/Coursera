@@ -32,19 +32,20 @@ nav a {
 }
 
 main {
-    background-color: white;
+    background-color: #333;
     text-align: center;
 }
 
 h2 {
+    color: rgb(210, 230, 230);
     padding: 20px;
 }
 
-section:nth-child(even) {
+section a:nth-child(even) {
     background-color: rgb(241, 241, 241);
 }
 
-section {
+section b {
     min-height: 100vh;
 }
 
@@ -53,7 +54,7 @@ video {
 }
 
 iframe {
-    height: 75vh;
+    height: 25vh;
 }
 
 img {
